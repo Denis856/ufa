@@ -24,9 +24,6 @@ $(document).ready(function() {
       $('.oar_mon23').css('transform','scale('+z_7+')');
       $('.oar_mon23').css('opacity',o);
       
-      var z_2=1+(w/5000000*p);
-      $('.oar_mon1').css('transform','scale('+z_2+')');
-      
       var hr=w/2000*p_b;
       var z_3=1+(w*0.00005*p_b);
       $('.oar_mon2').css('transform', 'translate3d('+hr+'px,0,0) scale('+z_3+')');
