@@ -21,7 +21,7 @@
 
 @media(max-width: 1350px) {
    .oar_mon21 {
-      top: -500px;
+      top: -250px;
    }
    .oar_mon22 {
       background-size: 30%;
@@ -35,7 +35,7 @@
 
 @media(max-width: 1250px) {
    .oar_mon21 {
-      top: -550px;
+      top: -250px;
    }
 }
 
@@ -63,7 +63,7 @@
       font-size: 25px;
    }
    .oar_mon21 {
-      top: -600px;
+      top: -250px;
    }
    .oar_mon22 {
       top: -250px;
@@ -104,7 +104,7 @@
 
 @media(max-width: 950px) {
    .oar_mon21 {
-      top: -650px;
+      top: -250px;
    }
 }
 
@@ -257,7 +257,7 @@
       font-size: 17px;
    }
    .oar_mon21 {
-      top: -650px;
+      top: -250px;
    }
 }
 
@@ -304,7 +304,7 @@
       background-size: 180%;
    }
    .oar_mon21 {
-      top: -750px;
+      top: -350px;
    }
    .oar_mon22 {
       top: -310px;
@@ -327,7 +327,7 @@
 
 @media(max-width: 350px) {
    .oar_mon21 {
-      top: -750px;
+      top: -250px;
    }
    .oar_mon22 {
       top: -310px;
