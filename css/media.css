@@ -25,11 +25,11 @@
    }
    .oar_mon22 {
       background-size: 30%;
-      top: -300px;
+      top: -250px;
    }
    .oar_mon23 {
       background-size: 30%;
-      top: -300px;
+      top: -250px;
    }
 }
 
@@ -66,20 +66,20 @@
       top: -600px;
    }
    .oar_mon22 {
-      top: -300px;
+      top: -250px;
    }
    .oar_mon23 {
-      top: -300px;
+      top: -250px;
    }
 }
 
 @media(max-width: 1050px) {
    .oar_mon22 {
-      top: -250px;
+      top: -350px;
       background-size: 25%;
    }
    .oar_mon23 {
-      top: -250px;
+      top: -350px;
       background-size: 25%;
    }
 }
@@ -155,11 +155,11 @@
 
 @media(max-width: 750px) {
    .oar_mon22 {
-      top: -250px;
+      top: -350px;
       background-size: 30%;
    }
    .oar_mon23 {
-      top: -250px;
+      top: -350px;
       background-size: 30%;
    }
 }
@@ -184,11 +184,11 @@
 
 @media(max-width: 650px) {
    .oar_mon22 {
-      top: -270px;
+      top: -350px;
       background-size: 30%;
    }
    .oar_mon23 {
-      top: -270px;
+      top: -350px;
       background-size: 30%;
    }
 }
@@ -213,11 +213,11 @@
       background-size: 60%;
    }
    .oar_mon22 {
-      top: -600px;
+      top: -350px;
       background-size: 30%;
    }
    .oar_mon23 {
-      top: -600px;
+      top: -350px;
       background-size: 30%;
    }
 }
@@ -263,11 +263,11 @@
 
 @media(max-width: 550px) {
    .oar_mon22 {
-      top: -570px;
+      top: -300px;
       background-size: 35%;
    }
    .oar_mon23 {
-      top: -570px;
+      top: -300px;
       background-size: 35%;
    }
 }
@@ -307,11 +307,11 @@
       top: -750px;
    }
    .oar_mon22 {
-      top: -610px;
+      top: -310px;
       background-size: 40%;
    }
    .oar_mon23 {
-      top: -610px;
+      top: -310px;
       background-size: 40%;
    }
    .back {
@@ -330,11 +330,11 @@
       top: -750px;
    }
    .oar_mon22 {
-      top: -710px;
+      top: -310px;
       background-size: 45%;
    }
    .oar_mon23 {
-      top: -710px;
+      top: -310px;
       background-size: 45%;
    }
 }
@@ -411,11 +411,11 @@
       background-size: 220%;
    }
    .oar_mon22 {
-      top: -670px;
+      top: -370px;
       background-size: 45%;
    }
    .oar_mon23 {
-      top: -670px;
+      top: -370px;
       background-size: 45%;
    }
 }
@@ -437,11 +437,11 @@
       background-size: 230%;
    }
    .oar_mon22 {
-      top: -650px;
+      top: -350px;
       background-size: 35%;
    }
    .oar_mon23 {
-      top: -650px;
+      top: -350px;
       background-size: 35%;
    }
 }
