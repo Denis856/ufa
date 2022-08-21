@@ -317,6 +317,10 @@
    .back {
       font-size: 15px;
    }
+   .oar_mon11, .oar_mon12, .oar_mon13, .oar_mon14, .oar_mon15, .oar_mon16,
+   .oar_mon17, .oar_mon18, .oar_mon19, .oar_mon1 {
+      background-position: -200px 0;
+   }
 }
 
 @media(max-width: 400px) {
