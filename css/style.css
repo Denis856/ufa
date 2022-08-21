@@ -1,0 +1,227 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,*:before,*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body {
+   width: 100%;
+   height: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h5{font-size: inherit;font-weight: 400;}
+
+a {
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.center {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.pare {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+}
+.paralax {
+   position: relative;
+   height: 100%;
+}
+.par_mon {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+}
+.oar_mon1 {
+   background: url(../img/fon.jpg) 0 0 /cover no-repeat;
+}
+.oar_mon3 {
+   z-index: 1;
+   background: url(../img/m_3.png) left bottom /100% no-repeat;
+}
+.oar_mon11 {
+   background: url(../img/bg1.png) 0 0 /cover no-repeat;
+}
+.oar_mon12 {
+   background: url(../img/bg2.jpg) 0 0 /cover no-repeat;
+}
+.oar_mon13 {
+   background: url(../img/bg3.jpg) 0 0 /cover no-repeat;
+}
+.oar_mon14 {
+   background: url(../img/bg4.png) 0 0 /cover no-repeat;
+}
+.oar_mon15 {
+   background: url(../img/bg5.png) 0 0 /cover no-repeat;
+}
+.oar_mon16 {
+   background: url(../img/bg6.png) 0 0 /cover no-repeat;
+}
+.oar_mon17 {
+   background: url(../img/bg7.png) 0 0 /cover no-repeat;
+}
+.oar_mon18 {
+   background: url(../img/bg8.png) 0 0 /cover no-repeat;
+}
+.oar_mon19 {
+   background: url(../img/bg9.png) 0 0 /cover no-repeat;
+}
+.oar_fon {
+   background: url(../img/tuman.png) bottom /200% no-repeat;
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   z-index: 2;
+}
+.oar_fon1 {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: 50px;
+   left: 0;
+   z-index: 2;
+}
+.oar_mon21 {
+   background: url(../img/dost.png) bottom /90% no-repeat;
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: -450px;
+   left: 0;
+   z-index: 2;
+}
+.oar_mon22 {
+   background: url(../img/muz.png) bottom /25% no-repeat;
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: -400px;
+   left: 0;
+   z-index: 2;
+}
+.oar_mon23 {
+   background: url(../img/park.png) bottom /25% no-repeat;
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: -400px;
+   left: 0;
+   z-index: 2;
+}
+.content {
+   position: relative;
+}
+.content_body {
+   max-width: 1110px;
+   margin: 0 auto;
+}
+.content_header {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+   padding: 0 20px;
+}
+.cont_title {
+   text-align: center;
+   font-size: 200px;
+   color:aliceblue;
+   text-shadow: 0 0 10px #000;
+}
+.cont_sub_title {
+   font-size: 120px;
+   color:aliceblue;
+   text-shadow: 0 0 10px #000;
+}
+.content_article {
+   display: flex;
+   justify-content: center;
+   color:aliceblue;
+   text-shadow: 0 0 10px #000;
+   background-color: rgba(23, 20, 20, 0.489);
+   padding: 25px;
+   font-size: 18px;
+   line-height: 24px;
+}
+.content_article p {
+   margin-bottom: 20px;
+}
+.nav {
+   padding-bottom: 100px;
+   margin-top: 100px;
+}
+.ul>*:not(:last-child) {
+   margin-right: 50px;
+}
+.link {
+   font-size: 40px;
+   color:aliceblue;
+   text-shadow: 0 0 10px #000;
+   transition: all .2s ease;
+}
+.link:hover {
+   color:rgb(72, 73, 75);
+}
+.link:active {
+   color:rgb(51, 163, 81);
+}
+.back {
+   font-size: 30px;
+   font-weight: 600;
+   color: rgb(249, 242, 242);
+   text-shadow: 0px 0px 5px rgb(21, 18, 18);
+   transition: all .2s ease;
+   background: rgba(0, 0, 0, 0.655);
+   border-radius: 20px;
+   padding: 10px;
+}
+.back:hover {
+   color: rgb(131, 33, 33);
+}
+.back:active {
+   color:rgb(51, 163, 81);
+}
+.ul2 {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.nav2 {
+   width: 100%;
+}
