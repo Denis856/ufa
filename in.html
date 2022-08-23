@@ -9,6 +9,7 @@
    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+   <div class="spinner"></div>
    <div class="pare">
       <div class="paralax">
          <div class="par_mon oar_mon1"></div>
