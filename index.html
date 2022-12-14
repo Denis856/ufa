@@ -23,7 +23,12 @@
                <a href="#" class="header__link none">О компании</a>
                <a href="tel:+380996384537" class="header__link none">+38 (099)-638-45-37</a>
                <div class="ret">
-                  <div class="header__lang">RU</div>
+                  <div class="header__lang">RU
+                     <div class="span1">
+                     <a href="#">RU</a>
+                     <a href="#">EN</a>
+                     </div>
+                  </div>
                   <a href="tel:+380996384537" class="tel"><img src="img/tel.png" alt="phone"></a>
                   <div class="header__burger" onclick="burger()"><span></span></div>
                </div>
@@ -44,9 +49,9 @@
                      <figure>Основано в 1993 году</figure>
                      <div class="page1__bg"></div>
                      <div class="arrs">
-                        <div class="arr"></div>
-                        <div class="orange"></div>
-                        <div class="arr"></div>
+                        <div class="arr arr01" onclick="bg1()"></div>
+                        <div class="arr arr02 orange" onclick="bg2()"></div>
+                        <div class="arr arr03" onclick="bg3()"></div>
                      </div>
                      <a href="#" class="page1__btn2 btn">перейти в КАталог</a>
                   </div>
@@ -55,35 +60,351 @@
          </section>
          <section class="page2">
             <div class="container">
-               <h2 class="page2__title title"><span>Н</span>овинки</h2>
-               <div class="page2__body block__body">
-                  <div class="page2__carousel">
-                     <div class="page2__items">
-                        <div class="arr0 arr1" id="left"></div>
-                        <div class="page2__item">
-                           <img src="img/img21.jpg" alt="icon">
-                           <figure class="page2__text1">Alba</figure>
-                           <figure class="page2__text2">15 000 uah</figure>
-                        </div>
-                        <div class="page2__item margin2">
-                           <img src="img/img22.png" alt="icon">
-                           <figure class="page2__text1">Martin</figure>
-                           <figure class="page2__text2">15 000 uah</figure>
-                        </div>
-                        <div class="page2__item none1">
-                           <img src="img/img23.png" alt="icon">
-                           <figure class="page2__text1">Luara</figure>
-                           <figure class="page2__text2">15 000 uah</figure>
-                        </div>
-                        <div class="arr0 arr2" id="right"></div>
+               <h3 class="page2__title title"><span>Н</span>овинки</h3>
+               <div class="page2__carousel">
+                  <div class="arr21">
+                     <div class="arr0 arr2" id="right"></div>
+                  </div>
+                  <div class="page2__items">
+                     <div class="page2__item">
+                        <img src="img/img21.jpg" alt="icon">
+                        <figure class="page2__text1">Alba</figure>
+                        <figure class="page2__text2">15 000 uah</figure>
+                     </div>
+                     <div class="page2__item">
+                        <img src="img/img21.jpg" alt="icon">
+                        <figure class="page2__text1">Alba</figure>
+                        <figure class="page2__text2">15 000 uah</figure>
+                     </div>
+                     <div class="page2__item">
+                        <img src="img/img21.jpg" alt="icon">
+                        <figure class="page2__text1">Alba</figure>
+                        <figure class="page2__text2">15 000 uah</figure>
+                     </div>
+                     <div class="page2__item">
+                        <img src="img/img21.jpg" alt="icon">
+                        <figure class="page2__text1">Alba</figure>
+                        <figure class="page2__text2">15 000 uah</figure>
+                     </div>
+                     <div class="page2__item">
+                        <img src="img/img22.png" alt="icon">
+                        <figure class="page2__text1">Martin</figure>
+                        <figure class="page2__text2">15 000 uah</figure>
+                     </div>
+                     <div class="page2__item">
+                        <img src="img/img23.png" alt="icon">
+                        <figure class="page2__text1">Luara</figure>
+                        <figure class="page2__text2">15 000 uah</figure>
+                     </div>
+                     <div class="page2__item">
+                        <img src="img/img23.png" alt="icon">
+                        <figure class="page2__text1">Luara</figure>
+                        <figure class="page2__text2">15 000 uah</figure>
                      </div>
                   </div>
-                  <a href="#" class="page2__btn btn">перейти в КАталог</a>
+                  <div class="arr22">
+                     <div class="arr0 arr2" id="right"></div>
+                  </div>
+               </div>
+               <div class="page2__btn">
+                  <a href="#" class="btn">перейти в каталог</a>
                </div>
             </div>
          </section>
+         <section class="page3">
+            <div class="container2">
+               <div class="page3__bg1"><img src="img/bg03.png" alt="icon"></div>
+               <div class="page3__bg2"></div>
+               <div class="container">
+                  <div class="page3__body">
+                     <div class="page3__img">
+                        <img src="img/bg2.jpg" alt="icon" class="page3__img">
+                        <figure class="page3__kub1"></figure>
+                     </div>
+                     <div class="page3__text">
+                        <figure class="page3__kub2">furniture</figure>
+                        <article class="page3__block">
+                           <h3 class="page3__title title">
+                              <span>И</span>ндивидуальная мебель
+                           </h3>
+                           <p class="page3__text1 text2">Полный цикл производства.</p>
+                           <p class="page3__text2 text1">
+                              Качество мягкой мебели начинается задолго до начала ее производства.
+                           </p>
+                           <a href="#" class="page3__btn btn">Индивидуальная мебель</a>
+                        </article>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page4">
+            <div class="container">
+               <div class="page4__body">
+                  <h3 class="page4__title title"><span>Н</span>аша история</h3>
+                  <div class="page4__content">
+                     <div class="page4__text">
+                        <figure class="page4__text1 text2">Наработки длинной в 25 лет</figure>
+                        <figure class="page4__text2 text1">
+                           Каждый производитель заявляет, что делает все для своих покупателей, но не 
+                           каждый производитель способен подтвердить свои заявления многолетней историей 
+                        </figure>
+                        <figure class="page4__kub"></figure>
+                     </div>
+                     <img src="img/bg4.jpg" alt="icon" class="page4__img">
+                  </div>
+                  <div class="page4__years">
+                     <img src="img/er1.png" alt="icon">
+                     <img src="img/er2.png" alt="icon">
+                     <img src="img/er3.png" alt="icon">
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page2 page5">
+            <div class="container">
+               <h3 class="page2__title title"><span>П</span>оследние публикации</h3>
+            </div>
+            <div class="container2">
+               <div class="page2__carousel">
+                  <div class="arr21 arr210">
+                     <div class="arr0 arr2" id="right"></div>
+                  </div>
+                  <div class="page5__items">
+                     <div class="page5__item">
+                        <img src="img/bg51.jpg" alt="icon">
+                        <figure class="page2__text1">Martin</figure>
+                     </div>
+                     <div class="page5__item">
+                        <img src="img/bg52.jpg" alt="icon">
+                        <figure class="page2__text1">Alba</figure>
+                     </div>
+                     <div class="page5__item">
+                        <img src="img/bg54.jpg" alt="icon">
+                        <figure class="page2__text1">Toscana</figure>
+                     </div>
+                     <div class="page5__item">
+                        <img src="img/bg53.jpg" alt="icon">
+                        <figure class="page2__text1">Leonardo</figure>
+                     </div>
+                     <div class="page5__item">
+                        <img src="img/bg53.jpg" alt="icon">
+                        <figure class="page2__text1">Leonardo</figure>
+                     </div>
+                     <div class="page5__item">
+                        <img src="img/bg53.jpg" alt="icon">
+                        <figure class="page2__text1">Leonardo</figure>
+                     </div>
+                  </div>
+                  <div class="arr22 arr220">
+                     <div class="arr0 arr2" id="right"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page6">
+            <div class="container">
+               <div class="page6__body">
+                  <div class="page6__img"></div>
+                  <form action="#" class="page6__form">
+                     <b class="page6__text1">Заполните форму</b>
+                     <h3 class="page6__title">остались вопросы?</h3>
+                     <div class="page6__group">
+                        <input type="text" class="page6__input" placeholder=" ">
+                        <label class="page6__label">Ваше имя*</label>
+                     </div>
+                     <div class="page6__group">
+                        <input type="text" class="page6__input" placeholder=" ">
+                        <label class="page6__label">Ваш номер телефона*</label>
+                     </div>
+                     <div class="page6__group">
+                        <input type="text" class="page6__input" placeholder=" ">
+                        <label class="page6__label">Страна</label>
+                     </div>
+                     <div class="page6__group">
+                        <input type="text" class="page6__input" placeholder=" ">
+                        <label class="page6__label">Комментарий</label>
+                     </div>
+                     <div class="page6__checkbox">
+                        <input id="check" type="checkbox" class="page6__input_check">
+                        <label for="check" class="page6__text2">
+                           Подтверждая заказ, я принимаю условия пользовательского соглашения
+                        </label>
+                     </div>
+                     <div class="btn2">
+                        <button type="reset" class="page6__btn btn">запросить звонок</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </section>
+         <div class="page7">
+            <div class="container">
+               <div class="page7__items">
+                  <div class="page7__item">
+                     <span>1</span>
+                     <p class="page7__text">
+                        Осуществляемые компанией «Экми-Мебель» постоянные инвестиции в сертификацию 
+                        своей продукции, убедительно подтверждают лидерство компании на украинском 
+                        рынке высококачественной мягкой мебели.
+                     </p>
+                  </div>
+                  <div class="page7__item">
+                     <span>2</span>
+                     <p class="page7__text">
+                        Фабрика «Экми-мебель» сертифицирована по системе менеджмента качества ISO 9001:2000
+                        на соответствие международным стандартам, представительством «Бюро Веритас» в Украине.
+                     </p>
+                  </div>
+                  <div class="page7__item">
+                     <span>3</span>
+                     <p class="page7__text">
+                        Компания «Экми-Мебель» первой из украинских производителей мягкой мебели обеспечила
+                        свою мебель полноценной  гарантией и первой обоснованно заявила о лучшем качестве
+                        производимой мебели.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <section class="page8">
+            <div class="container2">
+               <div class="page8__bg1"></div>
+               <div class="page8__bg2"></div>
+            </div>
+            <div class="container">
+               <h3 class="page8__title1 title"><span>Н</span>аши партнеры</h3>
+               <div class="page8__items">
+                  <div class="page8__text">
+                     <b class="page8__title2">Компании сотрудничают с нами по всему миру</b>
+                     <p class="page8__text2 text1">
+                        На данный момент дилерская сеть фабрики «Экми-Мебель» насчитывает более 30 
+                        салонов по всей Украине. Сейчас мы заинтересованы в расширении сети и предлагаем 
+                        выгодные условия для сотрудничества.
+                     </p>
+                     <p class="page8__text2 text1">
+                        Основным преимуществом фабрики является изготовление любого индивидуального изделия,
+                        мягкой мебели и аксессуаров из наших основных коллекций. Также присутствует линейка 
+                        оригинальных интерьерных корпусных изделий.
+                     </p>
+                  </div>
+                  <div class="page8__img">
+                  </div>
+                  <div class="page8__kub1"></div>
+                  <div class="page8__kub2"></div>
+               </div>
+            </div>
+         </section>
+         <div class="page9">
+            <div class="container">
+               <div class="page9__gallery">
+                  <div class="icon">
+                     <img src="img/bb1.png" alt="icon">
+                  </div>
+                  <div class="icon">
+                     <img src="img/bb2.png" alt="icon">
+                  </div>
+                  <div class="icon">
+                     <img src="img/bb3.png" alt="icon">
+                  </div>
+                  <div class="icon">
+                     <img src="img/bb4.png" alt="icon">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="page5 page10">
+            <div class="container2">
+               <div class="page2__carousel items10">
+                  <div class="arr21 arr210">
+                     <div class="arr0 arr2" id="none"></div>
+                  </div>
+                  <div class="page5__items">
+                     <div class="page5__item item10">
+                        <img src="img/bg91.jpg" alt="icon">
+                     </div>
+                     <div class="page5__item item10">
+                        <img src="img/bg92.jpg" alt="icon">
+                     </div>
+                     <div class="page5__item item10">
+                        <img src="img/bg93.jpg" alt="icon">
+                     </div>
+                     <div class="page5__item item10">
+                        <img src="img/bg94.jpg" alt="icon">
+                     </div>
+                  </div>
+                  <div class="arr22 arr220">
+                     <div class="arr0 arr2" id="none"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="page110"></div>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__body">
+               <form action="#" class="page6__form form10">
+                  <div class="krest"></div>
+                  <b class="page6__text1">Заполните форму</b>
+                  <h3 class="page6__title">остались вопросы?</h3>
+                  <div class="page6__group">
+                     <input type="text" class="page6__input" placeholder=" ">
+                     <label class="page6__label">Ваше имя*</label>
+                  </div>
+                  <div class="page6__group">
+                     <input type="text" class="page6__input" placeholder=" ">
+                     <label class="page6__label">Ваш номер телефона*</label>
+                  </div>
+                  <div class="page6__group">
+                     <input type="text" class="page6__input" placeholder=" ">
+                     <label class="page6__label">Страна</label>
+                  </div>
+                  <div class="page6__group">
+                     <input type="text" class="page6__input" placeholder=" ">
+                     <label class="page6__label">Комментарий</label>
+                  </div>
+                  <div class="page10__checkbox">
+                     <input id="check2" type="checkbox" class="page6__input_check">
+                     <label for="check2" class="page6__text2">
+                        Подтверждая заказ, я принимаю условия пользовательского соглашения
+                     </label>
+                  </div>
+                  <div class="btn2 btn10">
+                     <button type="reset" class="page6__btn btn">запросить звонок</button>
+                  </div>
+               </form>
+               <img src="img/img11.png" alt="icon" class="footer__img10">
+               <div class="footer__column order4">
+                  <a href="#"><img src="img/logo2.png" alt="logo"></a>
+               </div>
+               <div class="footer__column order1">
+                  <a href="#" class="footer__link">Каталог</a>
+                  <a href="#" class="footer__link">о компании</a>
+                  <a href="#" class="footer__link">Индивидуальная мебель</a>
+                  <a href="#" class="footer__link">Партнерам дизайнерам</a>
+               </div>
+               <div class="footer__column order2">
+                  <a href="#" class="footer__link">2D, 3D модели</a>
+                  <a href="#" class="footer__link">Шоу-румы</a>
+                  <a href="#" class="footer__link">Дилерам</a>
+                  <a href="#" class="footer__link">Контакты</a>
+                  <a href="#" class="footer__link">Конфигуратор</a>
+               </div>
+               <div class="footer__column order3">
+                  <div class="footer__col">
+                     <div class="footer__soces">
+                        <a href="#"><img src="img/soc1.png" alt="soc"></a>
+                        <a href="#"><img src="img/soc2.png" alt="soc"></a>
+                     </div>
+                     <a href="tel:+380996384537" class="footer__link">+38 (099)-638-45-37</a>
+                  </div>
+                  <div href="#" class="footer__btn btn">Персональная консультация<span></span></div>
+               </div>
+            </div>
+            <p class="footer__last">© 1993–2021 Интернет-магазин «Мир мебели»</p>
+         </div>
+      </footer>
    </div>
    <script src="js/jquery-1.9.1.min.js"></script>
    <script src="js/main.js"></script>
