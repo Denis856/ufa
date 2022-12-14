@@ -668,12 +668,12 @@ ul {
   padding: 0 0 60px 0;
 }
 .page2__items {
-  padding: 0 10vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
+  margin: 0 0 48px 0;
 }
 .page2__item {
   -webkit-box-flex: 0;

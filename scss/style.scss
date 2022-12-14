@@ -509,10 +509,10 @@ ul {
       padding: 0 0 60px 0;
    }
    &__items {
-      padding: 0 10vw;
       display: flex;
       overflow-x: auto;
       scroll-behavior: smooth;
+      margin: 0 0 48px 0;
    }
    &__item {
       flex: 0 0 auto;
