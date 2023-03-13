@@ -381,10 +381,14 @@ button.forEach(but => {
          })
          back2.addEventListener('click', ()=> {
             document.querySelector('.header').classList.remove('active');
-            basket_all.style.display = 'none';
             away.forEach(item => {
                item.classList.remove('active');
             })
+            flex_1.removeChild(block_img);
+            flex_1.removeChild(block_text);
+            flex_1.removeChild(back);
+            select.removeChild(flex_1);
+            flex_1.classList.add('flex_10');
          })
       });
 
