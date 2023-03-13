@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="fonts/style.css">
+   <title>Document</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header1">
+            <div class="container">
+               <div class="header1__inner">
+                  <div class="header1__part1">
+                     <p class="header1__text1">Available 24/7 at <span>(405) 555-0128</span></p>
+                     <ul class="header1__list">
+                        <li class="header1__item"><a href="#" class="header1__link">Delivery & returns</a></li>
+                        <li class="header1__item"><a href="#" class="header1__link">Track order</a></li>
+                        <li class="header1__item"><a href="#" class="header1__link">Blog</a></li>
+                        <li class="header1__item"><a href="#" class="header1__link">Contacts</a></li>
+                     </ul>
+                  </div>
+                  <div class="header1__part2">
+                     <div class="header1__lang_block">
+                        <p class="header1__lang_text">Eng / $</p>
+                        <i class="header1__icon icon-arr"></i>
+                     </div>
+                     <div class="header1__reg_block">
+                        <i class="header1__icon icon-user"></i>
+                        <p class="header1__reg_text">Log in / Register</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header2">
+            <div class="container">
+               <div class="header2__inner">
+                  <div class="header2__part1">
+                     <a href="#" class="header2__logo"><img src="img/logo.png" alt="logo"></a>
+                     <ul class="header2__list">
+                        <li class="header2__item"><a href="#" class="header2__link">Women</a></li>
+                        <li class="header2__item"><a href="#" class="header2__link">Men</a></li>
+                        <li class="header2__item"><a href="#" class="header2__link">Girls</a></li>
+                        <li class="header2__item"><a href="#" class="header2__link">Boys</a></li>
+                        <li class="header2__item"><a href="#" class="header2__link">Sale</a></li>
+                     </ul>
+                  </div>
+                  <div class="header2__part2">
+                     <div class="header2__group1">
+                        <input type="text" class="header2__input" placeholder="Search for products...">
+                        <i class="header2__icon icon-search header2__search"></i>
+                     </div>
+                     <div class="header2__group2">
+                        <div class="header2__group">
+                           <i class="header2__icon icon-favorit"></i>
+                           <p class="header2__group_text"></p>
+                        </div>
+                        <img src="img/divider.png" alt="line" class="header2__line">
+                        <div class="header2__group">
+                           <i class="header2__icon icon-basket"></i>
+                           <p class="header2__basket_text"></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header3">
+            <div class="container">
+               <div class="header3__inner">
+                  <i class="header3__icon header3__icon2 icon-arr"></i>
+                  <p class="header3__text">Up to 70% Off. <span>Shop our latest sale styles</span></p>
+                  <i class="header3__icon icon-arr"></i>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main class="page">
+         <section class="home away">
+            <button class="home__arr home__arr1" onclick="side_slide(-1)">
+               <i class="home__icon icon-arrow"></i>
+            </button>
+            <button class="home__arr home__arr2" onclick="side_slide(1)">
+               <i class="home__icon icon-arrow"></i>
+            </button>
+            <div class="container home__body">
+               <div class="home__inner">
+                  <div class="home__slide">
+                     <p class="home__subtitle">New collection</p>
+                     <h1 class="home__title">Menswear 2023</h1>
+                     <div class="home__block">
+                        <button class="home__btn1 btn">Shop sale</button>
+                        <button class="home__btn2 btn">Shop the menswear</button>
+                     </div>
+                  </div>
+                  <div class="home__slide">
+                     <p class="home__subtitle">Old collection</p>
+                     <h1 class="home__title">Womanswear 2014</h1>
+                     <div class="home__block">
+                        <button class="home__btn1 btn">Shop sale</button>
+                        <button class="home__btn2 btn">Shop the menswear</button>
+                     </div>
+                  </div>
+                  <div class="home__slide">
+                     <p class="home__subtitle">Very old collection</p>
+                     <h1 class="home__title">Childswear 2005</h1>
+                     <div class="home__block">
+                        <button class="home__btn1 btn">Shop sale</button>
+                        <button class="home__btn2 btn">Shop the menswear</button>
+                     </div>
+                  </div>
+                  <div class="home__slide">
+                     <p class="home__subtitle">Future collection</p>
+                     <h1 class="home__title">Animalswear 2026</h1>
+                     <div class="home__block">
+                        <button class="home__btn1 btn">Shop sale</button>
+                        <button class="home__btn2 btn">Shop the menswear</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="home__wrapper">
+                  <button class="home__choice active" onclick="btn_slide(1)"><p>01</p></button>
+                  <button class="home__choice" onclick="btn_slide(2)"><p>02</p></button>
+                  <button class="home__choice" onclick="btn_slide(3)"><p>03</p></button>
+                  <button class="home__choice" onclick="btn_slide(4)"><p>04</p></button>
+               </div>
+            </div>
+         </section>
+         <div class="cards away">
+            <div class="container">
+               <div class="cards__items">
+                  <a href="#" class="cards__item item1">
+                     <img src="img/img21.jpg" alt="icon" class="item1__img">
+                     <p class="item1__text">Women’s</p>
+                  </a>
+                  <a href="#" class="cards__item item1">
+                     <img src="img/img22.jpg" alt="icon" class="item1__img">
+                     <p class="item1__text">Men’s</p>
+                  </a>
+                  <a href="#" class="cards__item item1">
+                     <img src="img/img23.jpg" alt="icon" class="item1__img">
+                     <p class="item1__text">Kids’</p>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <section class="arrivals away">
+            <div class="arrivals__container">
+               <div class="arrivals__inner">
+                  <h2 class="arrivals__title title">New arrivals</h2>
+                  <p class="arrivals__text">
+                     Check out our latest arrivals for the upcoming season<br>
+                     <span>See the collection here</span>
+                  </p>
+                  <div class="arrivals__slider">
+                     <div class="arrivals__items active" id="content_1">
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <div class="item2__stars">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                           </div>
+                           <img src="img/img31.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Black and white sport cap</p>
+                           <p class="item2__price">$18.15</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <img src="img/img32.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Metal bridge sunglasses</p>
+                           <p class="item2__price">$89.95</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <div class="item2__stars">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star0.png" alt="star" class="item2__star">
+                           </div>
+                           <img src="img/img33.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Green baby romper</p>
+                           <p class="item2__price">$20.40</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <img src="img/img34.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Mid-rise slim cropped fit jeans</p>
+                           <p class="item2__price">$40.00</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <div class="item2__stars">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                           </div>
+                           <img src="img/img35.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Red dangle earrings</p>
+                           <p class="item2__price">$29.95</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <img src="img/img36.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Baby shoes with laces</p>
+                           <p class="item2__price">$30.60</p>
+                        </div>
+                     </div>
+                     <div class="arrivals__items" id="content_2">
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <div class="item2__stars">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                           </div>
+                           <img src="img/img31.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Black and white sport cap</p>
+                           <p class="item2__price">$18.15</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <div class="item2__stars">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star0.png" alt="star" class="item2__star">
+                           </div>
+                           <img src="img/img33.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Green baby romper</p>
+                           <p class="item2__price">$20.40</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <img src="img/img36.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Baby shoes with laces</p>
+                           <p class="item2__price">$30.60</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <img src="img/img32.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Metal bridge sunglasses</p>
+                           <p class="item2__price">$89.95</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <img src="img/img34.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Mid-rise slim cropped fit jeans</p>
+                           <p class="item2__price">$40.00</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <div class="item2__stars">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                           </div>
+                           <img src="img/img35.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Red dangle earrings</p>
+                           <p class="item2__price">$29.95</p>
+                        </div>
+                     </div>
+                     <div class="arrivals__items" id="content_3">
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <img src="img/img32.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Metal bridge sunglasses</p>
+                           <p class="item2__price">$89.95</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <div class="item2__stars">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                           </div>
+                           <img src="img/img31.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Black and white sport cap</p>
+                           <p class="item2__price">$18.15</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <img src="img/img34.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Mid-rise slim cropped fit jeans</p>
+                           <p class="item2__price">$40.00</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <div class="item2__stars">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                           </div>
+                           <img src="img/img35.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Red dangle earrings</p>
+                           <p class="item2__price">$29.95</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <div class="item2__stars">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star1.png" alt="star" class="item2__star">
+                              <img src="img/star0.png" alt="star" class="item2__star">
+                           </div>
+                           <img src="img/img33.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Green baby romper</p>
+                           <p class="item2__price">$20.40</p>
+                        </div>
+                        <div class="arrivals__item item2">
+                           <i class="item2__icon icon-favorit"></i>
+                           <img src="img/img36.jpg" alt="icon" class="item2__img">
+                           <p class="item2__text">Baby shoes with laces</p>
+                           <p class="item2__price">$30.60</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="arrivals__buttons">
+                     <button class="arrivals__btn active" data-button="content_1"></button>
+                     <button class="arrivals__btn" data-button="content_2"></button>
+                     <button class="arrivals__btn" data-button="content_3"></button>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="banners away">
+            <div class="banners__container">
+               <div class="banner banner1">
+                  <p class="banner__subtitte">Summer Collections</p>
+                  <p class="banner__title">Sale Up to 70%</p>
+                  <button class="banner__btn">Explore new prices</button>
+               </div>
+               <div class="banner banner2">
+                  <p class="banner__subtitte">Deal of the week</p>
+                  <p class="banner__title banner__title2">Stay Warm With Our<br>New Sweaters</p>
+                  <button class="banner__btn banner__btn02">Shop now</button>
+                  <div class="banner__block1">
+                     <p class="banner__text1">Limited time offer</p>
+                     <div class="banner__items">
+                        <p class="banner__item">06<br><span>Days</span></p>
+                        <p class="banner__item">18<br><span>Hours</span></p>
+                        <p class="banner__item">24<br><span>Mins</span></p>
+                        <p class="banner__item">12<br><span>Sec</span></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="banner banner3">
+                  <p class="banner__subtitte">New collection</p>
+                  <p class="banner__title">Shoes & Bags<br>autumn / winter 2020 </p>
+                  <button class="banner__btn">See offers <i class="banner__icon icon-arrow"></i></button>
+               </div>
+               <div class="banner banner4">
+                  <p class="banner__subtitte">For All new Email Subscribers</p>
+                  <p class="banner__title">Get 5% Off & Free Delivery</p>
+                  <img src="img/img44.png" alt="icon" class="banner__img2">
+                  <form action="#" class="banner__form">
+                     <label class="banner__text2">Email</label>
+                     <div class="banner__group">
+                        <input type="text" class="banner__input" placeholder="Your working email">
+                        <bnt class="banner__btn2">Subscribe</bnt>
+                     </div>
+                     <p class="banner__text3">
+                        *Sign up to be the first to hear about exclusive deals, special<br>offers and 
+                        upcoming collections.
+                     </p>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <section class="popular away">
+            <div class="container">
+               <h3 class="popular__title title">Popular categories</h3>
+               <div class="popular__items">
+                  <div class="popular__item item4">
+                     <img src="img/img51.png" alt="icon" class="item4__img">
+                     <p class="item4__text">Tops</p>
+                  </div>
+                  <div class="popular__item item4">
+                     <img src="img/img52.png" alt="icon" class="item4__img">
+                     <p class="item4__text">T-shirts</p>
+                  </div>
+                  <div class="popular__item item4">
+                     <img src="img/img53.png" alt="icon" class="item4__img">
+                     <p class="item4__text">Caps</p>
+                  </div>
+                  <div class="popular__item item4">
+                     <img src="img/img54.png" alt="icon" class="item4__img">
+                     <p class="item4__text">Sandals</p>
+                  </div>
+                  <div class="popular__item item4">
+                     <img src="img/img55.png" alt="icon" class="item4__img">
+                     <p class="item4__text">Jackets</p>
+                  </div>
+                  <div class="popular__item item4">
+                     <img src="img/img56.png" alt="icon" class="item4__img">
+                     <p class="item4__text">Coats</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="trending page0 away">
+            <div class="container page0__container">
+               <div class="page0__block_up">
+                  <h4 class="page0__title title">Trending now</h4>
+                  <div class="page0__btns">
+                     <button class="page0__btn page0__btn1">
+                        <i class="page0__icon icon-arrow"></i>
+                     </button>
+                     <button class="page0__btn page0__btn2">
+                        <i class="page0__icon icon-arrow"></i>
+                     </button>
+                  </div>
+               </div>
+               <div class="page0__items">
+                  <div class="page0__item page0__item20 item5">
+                     <div class="item5__block">
+                        <i class="item5__icon icon-favorit"></i>
+                        <div class="item2__stars">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                        </div>
+                        <img src="img/img61.jpg" alt="icon" class="item5__img">
+                     </div>
+                     <p class="item5__title">Shirt with insertion lace trims</p>
+                     <p class="item5__price">$49.95</p>
+                     <div class="item5__box">
+                        <div class="item5__box_block">
+                           <div class="item5__sizes">
+                              <button class="item5__size">36</button>
+                              <button class="item5__size">37</button>
+                              <button class="item5__size">38</button>
+                              <button class="item5__size">39</button>
+                              <button class="item5__size">40</button>
+                           </div>
+                           <div class="item5__colors">
+                              <button class="item5__color item5__color1"></button>
+                              <button class="item5__color item5__color2"></button>
+                              <button class="item5__color item5__color3"></button>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="item5__box_link">Go to product</button>
+                  </div>
+                  <div class="page0__item page0__item20 item5">
+                     <div class="item5__block">
+                        <i class="item5__icon icon-favorit"></i>
+                        <div class="item2__stars">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star0.png" alt="star" class="item2__star">
+                        </div>
+                        <img src="img/img62.jpg" alt="icon" class="item5__img">
+                     </div>
+                     <p class="item5__title">Chrono watch with blue leather belt</p>
+                     <p class="item5__price">$120.60</p>
+                     <div class="item5__box">
+                        <div class="item5__box_block">
+                           <div class="item5__sizes">
+                              <button class="item5__size">36</button>
+                              <button class="item5__size">37</button>
+                              <button class="item5__size">38</button>
+                              <button class="item5__size">39</button>
+                              <button class="item5__size">40</button>
+                           </div>
+                           <div class="item5__colors">
+                              <button class="item5__color item5__color1"></button>
+                              <button class="item5__color item5__color2"></button>
+                              <button class="item5__color item5__color3"></button>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="item5__box_link">Go to product</button>
+                  </div>
+                  <div class="page0__item page0__item20 item5">
+                     <div class="item5__block">
+                        <div class="item2__stars">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star0.png" alt="star" class="item2__star">
+                        </div>
+                        <i class="item5__icon icon-favorit"></i>
+                        <img src="img/img63.jpg" alt="icon" class="item5__img">
+                     </div>
+                     <p class="item5__title">Check coat with colour contrast</p>
+                     <p class="item5__price">$183.45</p>
+                     <div class="item5__box">
+                        <div class="item5__box_block">
+                           <div class="item5__sizes">
+                              <button class="item5__size">36</button>
+                              <button class="item5__size">37</button>
+                              <button class="item5__size">38</button>
+                              <button class="item5__size">39</button>
+                              <button class="item5__size">40</button>
+                           </div>
+                           <div class="item5__colors">
+                              <button class="item5__color item5__color1"></button>
+                              <button class="item5__color item5__color2"></button>
+                              <button class="item5__color item5__color3"></button>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="item5__box_link">Go to product</button>
+                  </div>
+                  <div class="page0__item page0__item20 item5">
+                     <div class="item5__block">
+                        <i class="item5__icon icon-favorit"></i>
+                        <div class="item2__stars">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                        </div>
+                        <img src="img/img61.jpg" alt="icon" class="item5__img">
+                     </div>
+                     <p class="item5__title">Shirt with insertion lace trims</p>
+                     <p class="item5__price">$49.95</p>
+                     <div class="item5__box">
+                        <div class="item5__box_block">
+                           <div class="item5__sizes">
+                              <button class="item5__size">36</button>
+                              <button class="item5__size">37</button>
+                              <button class="item5__size">38</button>
+                              <button class="item5__size">39</button>
+                              <button class="item5__size">40</button>
+                           </div>
+                           <div class="item5__colors">
+                              <button class="item5__color item5__color1"></button>
+                              <button class="item5__color item5__color2"></button>
+                              <button class="item5__color item5__color3"></button>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="item5__box_link">Go to product</button>
+                  </div>
+                  <div class="page0__item page0__item20 item5">
+                     <div class="item5__block">
+                        <i class="item5__icon icon-favorit"></i>
+                        <div class="item2__stars">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star0.png" alt="star" class="item2__star">
+                        </div>
+                        <img src="img/img62.jpg" alt="icon" class="item5__img">
+                     </div>
+                     <p class="item5__title">Chrono watch with blue leather belt</p>
+                     <p class="item5__price">$120.60</p>
+                     <div class="item5__box">
+                        <div class="item5__box_block">
+                           <div class="item5__sizes">
+                              <button class="item5__size">36</button>
+                              <button class="item5__size">37</button>
+                              <button class="item5__size">38</button>
+                              <button class="item5__size">39</button>
+                              <button class="item5__size">40</button>
+                           </div>
+                           <div class="item5__colors">
+                              <button class="item5__color item5__color1"></button>
+                              <button class="item5__color item5__color2"></button>
+                              <button class="item5__color item5__color3"></button>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="item5__box_link">Go to product</button>
+                  </div>
+               </div>
+               <button class="page0__btn0">Explore top sales</button>
+            </div>
+         </section>
+
+         <input type="number" class="input06">
+         <img src="img/visa.png" alt="icon" class="img_pay1">
+         <img src="img/master.png" alt="icon" class="img_pay2">
+         <img src="img/pay.png" alt="icon" class="img_pay3">
+         
+         <section class="sale page0 away">
+            <div class="container page0__container">
+               <div class="page0__block_up">
+                  <h4 class="page0__title title">Sale up to 70%</h4>
+                  <div class="page0__btns">
+                     <button class="page0__btn page0__btn1">
+                        <i class="page0__icon icon-arrow"></i>
+                     </button>
+                     <button class="page0__btn page0__btn2">
+                        <i class="page0__icon icon-arrow"></i>
+                     </button>
+                  </div>
+               </div>
+               <div class="page0__items">
+                  <div class="page0__item item5">
+                     <div class="item5__block">
+                        <div class="item5__sale">-50%</div>
+                        <i class="item5__icon icon-favorit"></i>
+                        <div class="item2__stars">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                        </div>
+                        <img src="img/img64.jpg" alt="icon" class="item5__img">
+                     </div>
+                     <p class="item5__title">Leather crossbody bag with gold hardware</p>
+                     <p class="item5__price item5__price_red">$89.50</p>
+                     <div class="item5__box">
+                        <div class="item5__box_block">
+                           <div class="item5__sizes">
+                              <button class="item5__size">36</button>
+                              <button class="item5__size">37</button>
+                              <button class="item5__size">38</button>
+                              <button class="item5__size">39</button>
+                              <button class="item5__size">40</button>
+                           </div>
+                           <div class="item5__colors">
+                              <button class="item5__color item5__color1"></button>
+                              <button class="item5__color item5__color2"></button>
+                              <button class="item5__color item5__color3"></button>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="item5__box_link">Go to product</button>
+                  </div>
+                  <div class="page0__item item5">
+                     <div class="item5__block">
+                        <div class="item5__sale">-50%</div>
+                        <i class="item5__icon icon-favorit"></i>
+                        <div class="item2__stars">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star0.png" alt="star" class="item2__star">
+                        </div>
+                        <img src="img/img65.jpg" alt="icon" class="item5__img">
+                     </div>
+                     <p class="item5__title">Skinny push-up jeans</p>
+                     <p class="item5__price item5__price_red">$40.00</p>
+                     <div class="item5__box">
+                        <div class="item5__box_block">
+                           <div class="item5__sizes">
+                              <button class="item5__size">36</button>
+                              <button class="item5__size">37</button>
+                              <button class="item5__size">38</button>
+                              <button class="item5__size">39</button>
+                              <button class="item5__size">40</button>
+                           </div>
+                           <div class="item5__colors">
+                              <button class="item5__color item5__color1"></button>
+                              <button class="item5__color item5__color2"></button>
+                              <button class="item5__color item5__color3"></button>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="item5__box_link">Go to product</button>
+                  </div>
+                  <div class="page0__item item5">
+                     <div class="item5__block">
+                        <div class="item2__stars">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star0.png" alt="star" class="item2__star">
+                        </div>
+                        <div class="item5__sale">-20%</div>
+                        <i class="item5__icon icon-favorit"></i>
+                        <img src="img/img66.jpg" alt="icon" class="item5__img">
+                     </div>
+                     <p class="item5__title">Wide heel suede ankle boots</p>
+                     <p class="item5__price item5__price_red">$119.16</p>
+                     <div class="item5__box">
+                        <div class="item5__box_block">
+                           <div class="item5__sizes">
+                              <button class="item5__size">36</button>
+                              <button class="item5__size">37</button>
+                              <button class="item5__size">38</button>
+                              <button class="item5__size">39</button>
+                              <button class="item5__size">40</button>
+                           </div>
+                           <div class="item5__colors">
+                              <button class="item5__color item5__color1"></button>
+                              <button class="item5__color item5__color2"></button>
+                              <button class="item5__color item5__color3"></button>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="item5__box_link">Go to product</button>
+                  </div>
+                  <div class="page0__item item5">
+                     <div class="item5__block">
+                        <div class="item5__sale">-50%</div>
+                        <i class="item5__icon icon-favorit"></i>
+                        <div class="item2__stars">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                        </div>
+                        <img src="img/img64.jpg" alt="icon" class="item5__img">
+                     </div>
+                     <p class="item5__title">Leather crossbody bag with gold hardware</p>
+                     <p class="item5__price item5__price_red">$89.50</p>
+                     <div class="item5__box">
+                        <div class="item5__box_block">
+                           <div class="item5__sizes">
+                              <button class="item5__size">36</button>
+                              <button class="item5__size">37</button>
+                              <button class="item5__size">38</button>
+                              <button class="item5__size">39</button>
+                              <button class="item5__size">40</button>
+                           </div>
+                           <div class="item5__colors">
+                              <button class="item5__color item5__color1"></button>
+                              <button class="item5__color item5__color2"></button>
+                              <button class="item5__color item5__color3"></button>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="item5__box_link">Go to product</button>
+                  </div>
+                  <div class="page0__item item5">
+                     <div class="item5__block">
+                        <div class="item5__sale">-50%</div>
+                        <i class="item5__icon icon-favorit"></i>
+                        <div class="item2__stars">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star1.png" alt="star" class="item2__star">
+                           <img src="img/star0.png" alt="star" class="item2__star">
+                        </div>
+                        <img src="img/img65.jpg" alt="icon" class="item5__img">
+                     </div>
+                     <p class="item5__title">Skinny push-up jeans</p>
+                     <p class="item5__price item5__price_red">$40.00</p>
+                     <div class="item5__box">
+                        <div class="item5__box_block">
+                           <div class="item5__sizes">
+                              <button class="item5__size">36</button>
+                              <button class="item5__size">37</button>
+                              <button class="item5__size">38</button>
+                              <button class="item5__size">39</button>
+                              <button class="item5__size">40</button>
+                           </div>
+                           <div class="item5__colors">
+                              <button class="item5__color item5__color1"></button>
+                              <button class="item5__color item5__color2"></button>
+                              <button class="item5__color item5__color3"></button>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="item5__box_link">Go to product</button>
+                  </div>
+               </div>
+               <button class="page0__btn0">Explore top sales</button>
+            </div>
+         </section>
+
+         <div class="cart">
+            <div class="container">
+               <div class="title01">
+               </div>
+            </div>
+         </div>
+         <div id="cart0">
+            <div class="container">
+               <div id="title0">
+               </div>
+            </div>
+         </div>
+         <div class="enjoy away">
+            <div class="container">
+               <div class="enjoy__inner">
+                  <img src="img/img7.png" alt="icon" class="enjoy__img">
+                  <div class="enjoy__block_text">
+                     <p class="enjoy__text">Enjoy mobile shopping with our Createx Store App!</p>
+                     <div class="enjoy__block_img">
+                        <a href="#" class="enjoy__link"><img src="img/app.png" alt="icon"></a>
+                        <a href="#" class="enjoy__link"><img src="img/goog.png" alt="icon"></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="fasts away">
+            <div class="container">
+               <div class="fasts__items">
+                  <div class="fasts__item item6">
+                     <i class="item6__icon icon-img41"></i>
+                     <p class="item6__title">Fast Worldwide Shipping</p>
+                     <p class="item6__text">Get free shipping over $250</p>
+                  </div>
+                  <div class="fasts__item item6">
+                     <i class="item6__icon icon-img42"></i>
+                     <p class="item6__title">24/7 Customer Support</p>
+                     <p class="item6__text">Friendly 24/7 customer support</p>
+                  </div>
+                  <div class="fasts__item item6">
+                     <i class="item6__icon icon-img43"></i>
+                     <p class="item6__title">Money Back Guarantee</p>
+                     <p class="item6__text">We return money within 30 days</p>
+                  </div>
+                  <div class="fasts__item item6">
+                     <i class="item6__icon icon-img44"></i>
+                     <p class="item6__title">Secure Online Payment</p>
+                     <p class="item6__text">Accept all major credit cards</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <section class="folows away">
+            <div class="container">
+               <div class="folows__inner">
+                  <div class="folows__block_text">
+                     <p class="folows__subtitle">Follow us on Instagram</p>
+                     <p class="folows__title title">@createx_store</p>
+                     <button class="folows__btn">
+                        <i class="folows__icon icon-Instagram1"></i> Follow instagram
+                     </button>
+                  </div>
+                  <div class="folows__box">
+                     <img src="img/img71.jpg" alt="icon" class="folows__img">
+                     <img src="img/img72.jpg" alt="icon" class="folows__img">
+                     <img src="img/img73.jpg" alt="icon" class="folows__img">
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="blog away">
+            <div class="container">
+               <div class="blog__block_up">
+                  <h5 class="blog__title title">Fashion blog</h5>
+                  <button class="blog__btn">View blog</button>
+               </div>
+               <div class="blog__items">
+                  <div class="blog__item item8">
+                     <img src="img/img81.jpg" alt="icon" class="item8__img">
+                     <div class="item8__blobk_text">
+                        <p class="item8__title">Bag Trends for Summer 2020</p>
+                        <p class="item8__info">Fashion | August 24, 2020 | 
+                           <img src="img/com.png" alt="icon" class="item8__icon"> 
+                           No comments
+                        </p>
+                        <p class="item8__text">
+                           Ipsum aliquet nisi, hendrerit rhoncus quam tortor, maecenas faucibus. Tincidunt 
+                           aliquet sit vel, venenatis nulla. Integer bibendum turpis convallis...
+                        </p>
+                     </div>
+                  </div>
+                  <div class="blog__item item8">
+                     <img src="img/img82.jpg" alt="icon" class="item8__img">
+                     <div class="item8__blobk_text">
+                        <p class="item8__title">Top 10 of This Season’s Hottest Sneakers</p>
+                        <p class="item8__info">
+                           Lifestyle | July 16, 2020 | 
+                           <img src="img/com.png" alt="icon" class="item8__icon"> 
+                           4 comments
+                        </p>
+                        <p class="item8__text">
+                           Porta habitant vitae quam interdum. Leo viverra non volutpat rhoncus placerat vitae 
+                           scelerisque. Rhoncus augue faucibus maecenas lacus...
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="brands away">
+            <div class="container">
+               <div class="brands__images">
+                  <img src="img/brand1.png" alt="brand" class="brands__img">
+                  <img src="img/brand2.png" alt="brand" class="brands__img">
+                  <img src="img/brand3.png" alt="brand" class="brands__img">
+                  <img src="img/brand4.png" alt="brand" class="brands__img">
+                  <img src="img/brand5.png" alt="brand" class="brands__img">
+                  <img src="img/brand6.png" alt="brand" class="brands__img">
+               </div>
+            </div>
+         </div>
+         <section class="subscribe away">
+            <div class="container">
+               <div class="subscribe__inner">
+                  <div class="subscribe__block_text">
+                     <h6 class="subscribe__title title">Subscribe for updates</h6>
+                     <p class="subscribe__text">Subscribe for exclusive early sale access and new arrivals.</p>
+                     <div class="subscribe__counts">
+                        <button class="subscribe__count">Women</button>
+                        <button class="subscribe__count">Men</button>
+                        <button class="subscribe__count">Girls</button>
+                        <button class="subscribe__count">Boys</button>
+                     </div>
+                     <form action="#" class="subscribe__form">
+                        <label class="subscribe__label">Email</label>
+                        <div class="subscribe__group">
+                           <input type="email" class="subscribe__input" placeholder="Your working email">
+                           <button class="subscribe__btn2">Subscribe</button>
+                        </div>
+                        <div class="subscribe__group2">
+                           <input type="checkbox" class="subscribe__input2" id="check">
+                           <label for="check" class="subscribe__label2">
+                              I agree to receive communications from Createx Store.
+                           </label>
+                        </div>
+                     </form>
+                  </div>
+                  <img src="img/img9.png" alt="icon" class="subscribe__img">
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__inner">
+               <div class="footer__columns">
+                  <div class="footer__column">
+                     <p class="footer__title">HELP</p>
+                     <a href="#" class="footer__link">Delivery & returns</a>
+                     <a href="#" class="footer__link">FAQFAQ</a>
+                     <a href="#" class="footer__link">Track order</a>
+                     <a href="#" class="footer__link">Contacts</a>
+                     <a href="#" class="footer__link">Blog</a>
+                  </div>
+                  <div class="footer__column">
+                     <p class="footer__title">Shop</p>
+                     <a href="#" class="footer__link">New arrivals</a>
+                     <a href="#" class="footer__link">Trending now</a>
+                     <a href="#" class="footer__link">Sales</a>
+                     <a href="#" class="footer__link">Brands</a>
+                  </div>
+                  <div class="footer__column">
+                     <p class="footer__title">Get in touch</p>
+                     <a href="tel:4055550128" class="footer__link">Call: (405) 555-0128</a>
+                     <a href="mailto:hello@createx.com" class="footer__link">Email: hello@createx.com</a>
+                     <div class="footer__social">
+                        <a href="#" class="footer__soc"><i class="footer__icon icon-Facebook"></i></a>
+                        <a href="#" class="footer__soc"><i class="footer__icon icon-Instagram"></i></a>
+                        <a href="#" class="footer__soc"><i class="footer__icon icon-Twitter"></i></a>
+                        <a href="#" class="footer__soc"><i class="footer__icon icon-Instagram"></i></a>
+                        <a href="#" class="footer__soc"><i class="footer__icon icon-pinterest"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer__part2">
+                  <p class="footer__title">Download our app</p>
+                  <div class="footer__block">
+                     <a href="#" class="footer__link2"><img src="img/app.png" alt="icon"></a>
+                     <a href="#" class="footer__link2"><img src="img/goog.png" alt="icon"></a>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__last">
+               <p class="footer__text1">
+                  © All rights reserved. Made with <i class="footer__last_icon icon-favorit"></i>
+                  by Createx Studio 
+               </p>
+               <p class="footer__text2">Go to top</p>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="js/script.js"></script>
+   <script src="js/script2.js"></script>
+   <script src="js/script3.js"></script>
+</body>
+</html>
