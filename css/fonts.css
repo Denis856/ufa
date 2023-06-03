@@ -1,0 +1,12 @@
+   @font-face {
+      font-family: 'Public', sans-serif;
+      src: url('../font/PublicSans-Regular.ttf');
+      font-style: normal;
+      font-weight: 400;
+   }
+   @font-face {
+      font-family: 'Libre', sans-serif;
+      src: url('../font/LibreBaskerville-Regular.ttf');
+      font-style: normal;
+      font-weight: 400;
+   }
